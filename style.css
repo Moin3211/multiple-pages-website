@@ -1,11 +1,11 @@
-li {display:inline;margin-left: 4em ;}
+.li {display:inline;margin-left: 4em ;}
 
   
-/* .active {background-color: rgb(240,83,83);
-    }*/
+ .active {background-color: rgb(177,8,8);
+}
 
 
-  ul {
+  .ul {
     list-style-type:none;
     margin-left:10em;margin-right: 10em;margin-top: 0;
     padding: 0;
@@ -13,11 +13,11 @@ li {display:inline;margin-left: 4em ;}
     background-color: #333;
   }
   
-  li {
+  .li {
     float: left;
   }
   
-  li a {
+  .li a {
     display: block;
     color: white;
     text-align: center;
@@ -26,10 +26,11 @@ li {display:inline;margin-left: 4em ;}
   }
   
   /* Change the link color to #111 (black) on hover */
-  li a:hover {
+  .li a:hover {
     background-color:rgb(177, 8, 8)
   }
   /*li {border-left: 2px solid grey;
     border-right: 2px solid grey;}*/
   body {background-color: lightgrey;}
-  
+  .h1 {font-size: 6em;font-family:Arial, Helvetica, sans-serif;}
+  .div1 {background-color: rgb(103, 103, 235);border: 1px solid black;}
