@@ -1,13 +1,13 @@
-li {display:inline;}
+li {display:inline;margin-left: 4em ;}
 
   
- .active {background: color #16db9a;
-    }
+/* .active {background-color: rgb(240,83,83);
+    }*/
 
 
   ul {
-    list-style-type: none;
-    margin: 0;
+    list-style-type:none;
+    margin-left:10em;margin-right: 10em;margin-top: 0;
     padding: 0;
     overflow: hidden;
     background-color: #333;
@@ -21,14 +21,15 @@ li {display:inline;}
     display: block;
     color: white;
     text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+    padding: 18px 24px;
+    text-decoration:none;
   }
   
   /* Change the link color to #111 (black) on hover */
   li a:hover {
-    background-color: #111;
+    background-color:rgb(177, 8, 8)
   }
-  li {
-    border-right: 1px solid grey;}
+  /*li {border-left: 2px solid grey;
+    border-right: 2px solid grey;}*/
+  body {background-color: lightgrey;}
   
